@@ -1,0 +1,23 @@
+@font-face
+  font-family 'FontIcons'
+  font-weight normal
+  font-style normal
+  src url('icons.woff?5') format('woff'), url('icons.otf') format('opentype');
+
+if isRTL
+  @font-face
+    font-family 'Vazirmatn'
+    src url('Vazirmatn-wght.woff2') format('woff2 supports variations'), url('Vazirmatn-wght.woff2') format('woff2-variations')
+    font-weight 100 900
+    font-style normal
+    font-display swap
+
+//- not used now?
+@font-face
+  font-family: 'PT Mono'
+  font-weight: bold;
+  font-style: normal;
+  src: local('PT MonoBold'),
+          url('PTMonoBold.woff2') format('woff2'),
+          url('PTMonoBold.woff') format('woff'),
+          url('PTMonoBold.ttf') format('truetype');
